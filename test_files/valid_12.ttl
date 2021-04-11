@@ -1,0 +1,13 @@
+{
+   DO D FROM 0 TO 20 {
+      DO A FROM 10 TO 50 {
+         FD A
+         LT 20
+         DO B FROM 1 TO 8 {
+            FD 10
+            SET C := A 5 / ;
+            LT A
+         }
+      }
+   }
+}

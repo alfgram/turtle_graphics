@@ -1,0 +1,14 @@
+parse purely checks whether the .ttl files follows the grammar.
+interp flags up additional errors (invalid infix notation, uninitialized variables)
+
+Error messages:
+If an error is flagged, the .ttl file is printed to the terminal with the line in which the error occurred highlighted in red.
+The highlighted line number should provide the user with enough information to find the source of the error.
+A brief explanation of the error is also printed below.
+
+Testing:
+Assertion testing was carried out on each individual functions as the code was written to ensure it performed correctly and to avoid bugs later on.
+The majority of testing was done via test .ttl files in the test_files folder.
+A set of valid files were used to check the parser and to visually inspect the SDL output to ensure it behaved as expected.
+I have also messed around with .ttl files to try and create some more complex patterns in later valid file numbers.
+Assertion testing was used on invalid files to check each file gave the correct error code and line number in which the error occurred.

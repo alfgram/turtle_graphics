@@ -1,0 +1,8 @@
+{
+   DO A FROM 122 TO -43 {
+      FD 10
+      LT 45
+      FD 12
+      RT 30
+   }
+}

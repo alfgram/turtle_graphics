@@ -1,0 +1,4 @@
+
+
+
+{ DO A FROM 1 TO XXX { SET C := A 1.5 * ; FD C RT 62 } }

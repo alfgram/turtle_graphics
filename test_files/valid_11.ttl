@@ -1,0 +1,10 @@
+{
+   DO A FROM 1 TO 100 {
+      FD A
+      RT 30
+      DO C FROM 1 TO 20 {
+         FD A
+         LT 10
+      }
+   }
+}

@@ -1,0 +1,14 @@
+{
+   DO D FROM 0 TO 50 {
+      SET C := D 5 * ;
+      FD C
+      RT D
+      DO A FROM 0 TO 20 {
+         FD 10
+         RT 18
+      }
+      LT 180
+      SET E := A 2 * ;
+      FD 30
+   }
+}

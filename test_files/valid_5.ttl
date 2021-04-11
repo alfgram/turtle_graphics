@@ -1,0 +1,6 @@
+{
+   DO A FROM 1 TO 8 {
+      FD 100
+      LT 45
+   }
+}

@@ -1,0 +1,6 @@
+My extension lets the user draw to the screen using the arrow or WASD keys.
+Forward/A draws a line forward and left/D and right/W change the rotation of the player. Pressing enter closes the window.
+Once finished drawing, the forward and directional commands are written to Extension/extension.ttl.
+This file is a valid .ttl file and can be ran using the interpreter to redraw the exact same thing as inputted by the user.
+
+Testing was carried out purely by checking the output file against what arrow keys were pressed when the program was ran.
